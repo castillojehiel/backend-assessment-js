@@ -1,3 +1,12 @@
 name = "ma-project"
 main = "src/index.ts"
-compatibility_date = "2023-04-18"
+compatibility_flags = [ "nodejs_compat" ]
+compatibility_date = "2024-09-23"
+
+[vars]
+DATABASE_HOST = "ep-damp-brook-a52lgtv9.us-east-2.aws.neon.tech"
+DATABASE_USER = "neondb_owner"
+DATABASE_PASSWORD = "ig89SnejZdwC"
+DATABASE_NAME = "neondb"
+DATABASE_TYPE = "pg"
+
