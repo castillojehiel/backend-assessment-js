@@ -9,4 +9,5 @@ DATABASE_USER = "neondb_owner"
 DATABASE_PASSWORD = "ig89SnejZdwC"
 DATABASE_NAME = "neondb"
 DATABASE_TYPE = "pg"
+FETCH_RAW_PRODUCT_DATASOURCE_URL = "https://02557f4d-8f03-405d-a4e7-7a6483d26a04.mock.pstmn.io/get"
 

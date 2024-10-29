@@ -13,3 +13,11 @@ export function ConvertObjectInterface<T, U>(
 
   return result;
 }
+
+export interface FunctionResponse<T> {
+  err?: string | Error;
+  code?: number;
+  message?: string;
+  data?: T;
+  affected_records_count?: number;
+}
